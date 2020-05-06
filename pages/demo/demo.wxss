@@ -1,0 +1,8 @@
+/* pages/demo/demo.wxss */
+map{
+  width: 100vw;
+  height: 100vh;
+  scale: "15";
+    
+
+}

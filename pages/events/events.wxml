@@ -1,0 +1,19 @@
+<!--pages/events.wxml-->
+<view>
+  <view bindtap="tapGreeting">
+    <text class="vertical centerd">{{ greeting }}</text>
+  </view>
+</view>
+
+  <view class="image">
+    <image src="/assets/images/image_splash.jpg"></image>
+  </view>
+    <view class="image">
+    <image src="/assets/images/image_splash.jpg"></image>
+  </view>
+    <view class="image">
+    <image src="/assets/images/image_splash.jpg"></image>
+  </view>
+    <view class="image">
+    <image src="/assets/images/image_splash.jpg"></image>
+  </view>

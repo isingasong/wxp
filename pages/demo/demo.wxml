@@ -1,0 +1,10 @@
+<!--pages/demo/demo.wxml-->
+
+<!-- <image 
+style="background:#ededed;width:100vw" mode="aspactFill" src="https://resources.ninghao.net/deng-deng-deng.jpg">
+</image>
+
+
+<video poster="https://resources.ninghao.net/deng-deng-deng.jpg" src="https://resources.ninghao.net/deng-deng-deng.mp4" controls bindplay="play" bindpause="pause" bindended="ended" objectFit="cover"></video> -->
+
+<map  latitude="30.317235"  longitude="120.258323" markers="{{markers}}"></map>

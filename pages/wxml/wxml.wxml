@@ -1,0 +1,99 @@
+<!-- pages/wxml/wxml.wxml
+
+<!-- <scroll-view scroll-y="{{true}}"  style="height: 180px" scroll-into-view="{{currentView}}" scroll-with-animation="{{true}}">
+
+  <view class="view-container">
+    <view id="red" class="red" hover-class="lighten">
+      <text>1</text>
+    </view>
+    <view id="yellow" class="yellow" hover-class="lighten">
+      <text>2</text>
+    </view>
+    <view id="blue" class="blue" hover-class="lighten">
+      <text>3</text>
+    </view>
+    <view id="pink" class="pink" hover-class="lighten">
+      <text>4</text>
+    </view>
+  </view>
+
+
+
+</scroll-view> -->
+
+
+
+<!-- <swiper indicator-dots="{{true}}"  indicator-color="rgab(255,255,255,0.3)" indicator-active-color="#ffffff">
+
+<block wx:for="{{images}}">
+  <swiper-item>
+    <image src="{{item}}"></image>
+  </swiper-item>
+  </block>
+
+
+
+</swiper>
+
+<button bindtap="setScrollView" data-view="red">red</button>
+<button bindtap="setScrollView" data-view="yellow">yellow</button>
+<button bindtap="setScrollView" data-view="blue">blue</button>
+<button bindtap="setScrollView" data-view="pink">pink</button> -->
+
+<!-- <progress percent="44" activeColor="red"></progress>
+
+<movable-area>
+  <movable-view direction="all" inertia="{{true}}" out-of-bounds="{{true}}" x="60" y="60"></movable-view>
+</movable-area> -->
+
+<!-- <icon type="success" size="100"></icon>
+<icon type="info"></icon> -->
+<!-- <rich-text nodes="{{nodes}}">
+</rich-text>
+
+<form bindsubmit="formSubmit"> -->
+  <!-- <label for="slider">
+    <text>slider</text>
+  </label>
+
+  <slider id="slider" name="slider" show-value></slider>
+
+  <button form-type="submit"> 提交</button>
+
+  <input type="text" name="text" placeholder="text">
+  </input>
+
+  <textarea name="textarea" placeholder="textarea" bindinput="inputHandler"></textarea>
+
+  <checkbox-group name="checkbox" bindchange="inputHandler">
+
+    <label wx:for="{{item}}" wx:key = "key">
+      <text>{{item.name}}</text>
+      <checkbox value="{{item.value}}" />
+    </label>
+
+  </checkbox-group>
+
+    <radio-group name="checkbox" bindchange="inputHandler">
+
+    <label wx:for="{{item}}" wx:key = "key">
+      <text>{{item.name}}</text>
+      <radio value="{{item.value}}" />
+    </label>
+
+  </radio-group> -->
+
+  <!-- <picker bindchange="inputHandler" name="pick" mode = "region" value="{{pick}}">
+
+    <view>
+      <text>{{pick}}</text>
+    </view>
+  </picker>
+
+  <button form-type="submit"> 提交</button> -->
+
+
+
+<!-- </form> -->
+
+<navigator open-type="navigate" url="/pages/demo/demo?id=1000">test</navigator>
